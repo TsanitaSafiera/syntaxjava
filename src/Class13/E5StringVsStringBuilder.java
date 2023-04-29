@@ -7,6 +7,7 @@ public class E5StringVsStringBuilder {
         System.out.println(str.length());
         System.out.println(str.reverse());
 
+
         // to convert String to string builder
         String str1="Computer";
         StringBuilder str2=new StringBuilder(str1);
@@ -15,6 +16,8 @@ public class E5StringVsStringBuilder {
         // to restore the variable from string builder back to string
         str1=str2.toString();
         System.out.println(str1);
+
+
 
     }
 }

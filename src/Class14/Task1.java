@@ -30,7 +30,7 @@ public class Task1 {
         toString()=> it converts the StringBuilder back to a String
         equalsIgnoreCase(str)=> comparing the reversed String to original one
          */
-        return new StringBuilder(str).reverse().toString().equalsIgnoreCase(str)
+        return new StringBuilder(str).reverse().toString().equalsIgnoreCase(str);
 
     }
 

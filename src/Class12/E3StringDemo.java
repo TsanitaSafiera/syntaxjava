@@ -11,5 +11,6 @@ public class E3StringDemo {
         System.out.println(name2.toLowerCase());
         System.out.println(name3.toLowerCase()); // only the alphabet
         // is converted
+
     }
 }

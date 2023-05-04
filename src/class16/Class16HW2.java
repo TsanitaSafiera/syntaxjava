@@ -7,14 +7,12 @@ public class Class16HW2 {
     // where it was declared and executed by calling it is name
 
     private String str(String word){
-        System.out.println(word);
-        return word;
+        return word.replaceAll("[^aiueo]","");
     }
 
     public static void main(String[]args){
         Class16HW2 obj=new Class16HW2();
-        String word="i want to go home";
-        obj.str(word.replaceAll("[^aiueo]",""));
+        System.out.println(obj.str("i want to go home"));
 
 
 

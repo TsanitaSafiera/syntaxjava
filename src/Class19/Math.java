@@ -19,7 +19,8 @@ public class Math {
     static void add(double num1, double num2, int num3){
         System.out.println(num1+num2+num3);
     }
-    // we must have 1) number of parameters, 2)different data types of parameters
+    // we must have 1) number of parameters,
+    // 2)different data types of parameters
     //3) sequence of data types
     public static void main (String[]args){
         add(10,10);

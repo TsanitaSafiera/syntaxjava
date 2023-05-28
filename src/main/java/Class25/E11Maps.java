@@ -18,7 +18,7 @@ public class E11Maps {
         Collection<Double> values =makeup.values();
         values.removeIf(v -> v>80);
         System.out.println(makeup);
-        
+
         XSSFWorkbook xssfWorkbook;
 
     }

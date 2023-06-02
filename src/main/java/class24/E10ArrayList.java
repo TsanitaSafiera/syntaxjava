@@ -12,8 +12,8 @@ public class E10ArrayList {
 
         names.removeIf(x->x.endsWith("e"));
 
-        /*
-          Iterator<String> iterator= names.iterator();
+
+         /* Iterator<String> iterator= names.iterator();
         while (iterator.hasNext()){
             String word=iterator.next();
             if(word.endsWith("e")){

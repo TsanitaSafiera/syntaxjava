@@ -19,5 +19,7 @@ public class E9Maps {
         //Collection<Double> values= makeup.values();
         System.out.println(values);
 
+        
+
     }
 }
